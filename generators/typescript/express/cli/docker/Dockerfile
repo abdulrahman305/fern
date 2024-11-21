@@ -1,4 +1,4 @@
-FROM node:18.1.0-alpine
+FROM node:18.20.5-alpine
 
 RUN apk --no-cache add git zip \
   && git config --global user.name "fern" \
