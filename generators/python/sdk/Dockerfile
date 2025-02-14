@@ -1,4 +1,4 @@
-FROM python:3.9.14
+FROM python:3.13.2
 
 # Install node and npm.
 ENV NODE_VERSION=18.20.0
